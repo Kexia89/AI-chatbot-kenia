@@ -55,8 +55,8 @@ El texto se representa mediante dos espacios TF-IDF complementarios:
 Para un término $t$ en un documento $d$:
 
 $$
-\operatorname{tfidf}(t,d)=\left(1+\log \operatorname{tf}(t,d)\right)
-\log\left(\frac{1+N}{1+\operatorname{df}(t)}\right)
+\mathrm{tfidf}(t,d)=\left(1+\log \mathrm{tf}(t,d)\right)
+\log\left(\frac{1+N}{1+\mathrm{df}(t)}\right)
 $$
 
 Los dos vectores se concatenan en una representación dispersa:
